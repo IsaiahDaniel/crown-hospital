@@ -17,7 +17,9 @@ const Footer = () => {
             <div className="grid lg:grid-cols-4 lg:gap-14">
                 <div className="col-span-2">
                     <img src={LogoBlack} alt="" />
-                    <p className="text-dark mt-3 mb-5">Etiam sutor risus, dapibus act elefend katen, lacinia sitamet denim. Mauris sagittis kansa interdum dignissim.</p>
+                    <p className="text-dark mt-3 mb-5">
+                        Take the first step towards exceptional healthcare. Contact us now to schedule your appointment and experience the Crown Hospital difference.
+                    </p>
                     <p className="text-dark">© { date.getFullYear() } Hospital. All rights reserved.</p>
                 </div>
 

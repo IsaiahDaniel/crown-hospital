@@ -17,14 +17,16 @@ const Landing = () => {
     return (
         <main>
             <Header />
+
             <Showcase />
+
             <section className="mx-auto lg:px-48 lg:py-10 grid lg:grid-cols-2" id="about">
                 <img src={AboutUs} alt="" />
 
                 <div className="px-10 mb-10">
                     <h3 className="border-b border-[#007bff] text-5xl mt-5 lg:w-1/2 pb-5">About Us</h3>
                     <p className="mt-10 text-justify">
-                        Vestibulum condimentum, risus sedones honcus rutrum, salah lacus mollis zurna, nec finibusmi velit advertisis. Proin vitae odin quis magna aliquet laciniae. Etiam auctor, nisi vel. Pellentesque ultrices nisl quam iaculis, nec pulvinar augue.
+                      Welcome to Crown hospital , where we are committed to delivering exceptional healthcare with a focus on compassion, innovation, and excellence. As a leading specialist hospital, we take pride in providing comprehensive medical services tailored to meet the unique needs of each patient.
                     </p>
                 </div>
             </section>
@@ -105,7 +107,7 @@ const Landing = () => {
                             <h2 className="font-extrabold mt-4">We care</h2>
                         </div>
 
-                       
+
                     </div>
                 </div>
 
