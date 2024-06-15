@@ -1,6 +1,5 @@
-import LogoBlack from "@/assets/hospital.webp";
+import LogoBlack from "@/assets/logo.png";
 import { useState } from "react";
-
 
 const Footer = () => {
 
@@ -16,7 +15,7 @@ const Footer = () => {
         <div className="mt-16 w-[90%] mx-auto py-5">
             <div className="grid lg:grid-cols-4 lg:gap-14">
                 <div className="col-span-2">
-                    <img src={LogoBlack} alt="" />
+                    <img src={LogoBlack} alt="" className="w-28 h-28" />
                     <p className="text-dark mt-3 mb-5">
                         Take the first step towards exceptional healthcare. Contact us now to schedule your appointment and experience the Crown Hospital difference.
                     </p>
