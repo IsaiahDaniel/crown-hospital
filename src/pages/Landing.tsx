@@ -31,7 +31,7 @@ const Landing = () => {
                 </div>
             </section> */}
 
-            <section className="mx-auto lg:px-48 flex items-center justify-center container max-w-[80%] py-5" id="about">
+            <section className="mx-auto lg:px-48 flex items-center justify-center py-5" id="about">
                 <img src={AboutUs} alt="" />
 
                 <div className="px-10 mb-10">
