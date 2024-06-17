@@ -24,10 +24,10 @@ const Landing = () => {
 
             <Showcase />
 
-            <section className="mx-auto lg:px-48 flex flex-col lg:flex-row items-center w-full justify-center py-5" id="about">
+            <section className="mx-auto lg:px-32 flex flex-col lg:flex-row items-center w-full justify-center py-5" id="about">
                 <img src={AboutUs} alt="" />
 
-                <div className="px-10 mb-10">
+                <div className="px-5 lg:px-10 mb-10">
                     <h3 className="border-b border-[#007bff] text-5xl mt-5 lg:w-1/2 pb-5">About Us</h3>
                     <p className="mt-10 text-justify">
                         Welcome to Crown hospital , where we are committed to delivering exceptional healthcare with a focus on compassion, innovation, and excellence. As a leading specialist hospital, we take pride in providing comprehensive medical services tailored to meet the unique needs of each patient.
