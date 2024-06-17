@@ -4,8 +4,9 @@ import { useState } from "react";
 const Footer = () => {
 
     const FOOTER_DATA = [
-        { header: "Consultation Hour", items: ["Mon - wed : 8:00 - 18.00", "Thur - Fri: 8:00 - 17:00", "Sat - Sun: 10:00 - 17: 00", "Holidays - Closed"] },
-        { header: "Contact", items: ["Address: 37a Oja Oshodi Akure, Ondo State, Nigeria", "+234 813 941 5247", "+2349077127012"] },
+        // { header: "Consultation Hour", items: ["Mon - wed : 8:00 - 18.00", "Thur - Fri: 8:00 - 17:00", "Sat - Sun: 10:00 - 17: 00", "Holidays - Closed"] },
+        { header: "Consultation Hour", items: ["Mon - wed : 8:00 - 18.00", "Thur - Fri: 8:00 - 17:00", "Sat - Sun: 10:00 - 17: 00", "Operation 24hrs, 7 Days"] },
+        { header: "Contact", items: ["Ondo Address: 19 Olu Koleosho Medical Road, Ikeja Lagos State", "Lagos Hospital Address: 19 Olu Koleosho Medical Road, Ikeja Lagos State",  "+234 813 941 5247", "+2349077127012"] },
         // { header: "Products", items: ["Help centre", "FAQ", "Contact", "Press"] }
     ];
 
@@ -19,7 +20,7 @@ const Footer = () => {
                     <p className="text-dark mt-3 mb-5">
                         Take the first step towards exceptional healthcare. Contact us now to schedule your appointment and experience the Crown Hospital difference.
                     </p>
-                    <p className="text-dark">© { date.getFullYear() } Hospital. All rights reserved.</p>
+                    <p className="text-dark">© { date.getFullYear() } Crown Hospitals. All rights reserved.</p>
                 </div>
 
                 { FOOTER_DATA.map(item => (
@@ -39,4 +40,4 @@ const Footer = () => {
     );
 }
 
-export default Footer
+export default Footer;

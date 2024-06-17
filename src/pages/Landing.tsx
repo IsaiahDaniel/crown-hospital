@@ -18,6 +18,8 @@ import MoreAboutUsTwo from "@/assets/about-us-2.jpeg";
 import MoreAboutUsThree from "@/assets/about-us-3.jpeg";
 import MoreAboutUsFour from "@/assets/about-us-4.jpeg";
 
+import Physiotherapy from "@/assets/physiotherapy.jpeg";
+
 const Landing = () => {
     return (
         <main>
@@ -75,7 +77,7 @@ const Landing = () => {
 
                 <div className="flex flex-col items-center mt-20 text-center">
                     <h2 className="text-3xl font-bold">Why People Trust Us</h2>
-                    <p className="mt-5">With over 5 decades in the healthcare industry, we have built a reputation of being reliable and pioneers in Nigerian Healthcare and we remain leaders in our industry.</p>
+                    <p className="mt-5">With over 2 decades in the healthcare industry, we have built a reputation of being reliable and pioneers in Nigerian Healthcare and we remain leaders in our industry.</p>
                     <div className="grid grid-cols-2 lg:grid-cols-3 items-center gap-10 mt-10">
                         <div className="flex flex-col items-center">
                             <div className="bg-[#30C1FF] rounded-full p-5 w-[80px] h-[80px] flex flex-col items-center">
@@ -131,27 +133,24 @@ const Landing = () => {
                         <div>
                             <img src={MoreAboutUsFour} alt="" className="rounded-lg h-[300px] object-cover w-full" />
                             <h2 className="mt-3 text-[#1b3c74] text-xl lg:text-2xl">Critical Care Medicine/ICU</h2>
-                            <p className="mt-4 text-justify text-base">As one of our mandates as a critical care center, we provide the highest level of trauma and emergency care in our fully equipped emergency room. Our team are trained and re trained on modern techniques in the management of medical, surgical and obstetric emergencies. Our model also ensures a seamless flow within the hospital for the acutely ill.</p>
-                        </div>
-                        <div>
-                            <img src={MoreAboutUsThree} alt="" className="rounded-lg h-[300px] object-cover w-full" />
-                            <h2 className="mt-3 text-[#1b3c74] text-xl lg:text-2xl">Medical community outreach</h2>
-                            <p className="mt-4 text-justify text-base">
-                                At crown hospital , we have two fully equipped theatres and trained theatre practitioners, technicians, nurses, surgeons and anaesthetists who ensure that cases are done safely and efficiently. We are fully aware that “safe surgery saves lives”
-
-                                Our in-house urologist provides treatment for a variety of concerns including, but not limited to, Prostate Cancer, bladder cancer, renal cancer, impotence, kidney stone and infertility. We also carry out Procedures such as vasectomy and laparoscopic surgeries.
-
-                                From upper gastrointestinal to lower gastrointestinal surgery to breast surgery and thyroid surgeries our team of trained surgeons provide the skills and technique necessary for each case for each patient.
-
-                                Children are not little adults, they require a lot more care and precision, that’s why we ensure that paediatric cases are done by a paediatric surgeon.
-
-                                Our neurosurgeon offers the best modern techniques available in treatment of brain and spine disorders. Expert review is available from the p
-                            </p>
+                            <p className="mt-4 text-justify text-base">Intensive care medicine, or critical care medicine, is a branch of medicine concerned with the diagnosis and management of life-threatening conditions that may require sophisticated life support equipment and monitoring. This is one of our core specialties and we have over 15 years of experience in it. We have two of the nation’s best intensivists manning our 6 bedded well equipped ICU. They have provided critical care services in a variety of hospitals within and outside the country and are dedicated to promoting critical care services in Nigeria.</p>
                         </div>
                         <div>
                             <img src={MoreAboutUsTwo} alt="" className="rounded-lg h-[300px] object-cover w-full" />
                             <h2 className="mt-3 text-[#1b3c74] text-xl lg:text-2xl">SURGERY</h2>
                             <p className="mt-4 text-justify text-base">
+                                At crown hospital , we have two fully equipped theatres and trained theatre practitioners, technicians, nurses, surgeons and anaesthetists who ensure that cases are done safely and efficiently. We are fully aware that “safe surgery saves lives”
+                                Our in-house urologist provides treatment for a variety of concerns including, but not limited to, Prostate Cancer, bladder cancer, renal cancer, impotence, kidney stone and infertility. We also carry out Procedures such as vasectomy and laparoscopic surgeries.
+                                From upper gastrointestinal to lower gastrointestinal surgery to breast surgery and thyroid surgeries our team of trained surgeons provide the skills and technique necessary for each case for each patient.
+                                Children are not little adults, they require a lot more care and precision, that’s why we ensure that paediatric cases are done by a paediatric surgeon.
+                                Our neurosurgeon offers the best modern techniques available in treatment of brain and spine disorders. Expert review is available from the p
+                            </p>
+                        </div>
+                        <div>
+                            <img src={MoreAboutUsThree} alt="" className="rounded-lg h-[300px] object-cover w-full" />
+                            <h2 className="mt-3 text-[#1b3c74] text-xl lg:text-2xl">Medical community outreach</h2>
+                            <p className="mt-4 text-justify text-base">
+
                                 Medical outreach team, Crown hospital , on Thursday, 4th of February, 2021 delivered quality health care services to the residents of Temidire-Ekiti in Ijero Local Government Area of Ekiti State.
 
                                 Mrs. Adeniyi, a Public Health Matron from the Department of Community Medicine led the publicity crew to publicised the arrival of Fethi medical team to the community.
@@ -161,6 +160,18 @@ const Landing = () => {
                                 Activities carried out during the outreach programme were; Publicity, vital signs check, RBC check, consultation and dispensation of drugs. Covid-19 protocols were duly observed during the program.
 
                                 A Community Health physician, Dr. Alao and other medical team were on ground for the outreach exercise.
+
+
+
+
+
+                            </p>
+                        </div>
+                        <div>
+                            <img src={Physiotherapy} alt="" className="rounded-lg h-[300px] object-cover w-full" />
+                            <h2 className="mt-3 text-[#1b3c74] text-xl lg:text-2xl">Physiotherapy and psychological well-being services</h2>
+                            <p className="mt-4 text-justify text-base">
+                                Physiotherapy can help restore your body’s harmony after an injury, reduce chronic pain, or boost overall mobility. Our licensed physiotherapists specialize in various evidence-based techniques, including manual therapy, soft tissue work, acupuncture, and therapeutic exercise.
                             </p>
                         </div>
                     </div>
