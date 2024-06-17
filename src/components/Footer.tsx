@@ -4,7 +4,7 @@ import { useState } from "react";
 const Footer = () => {
 
     const FOOTER_DATA = [
-        { header: "Opening Hours", items: ["Mon - wed : 8:00 - 18.00", "Thur - Fri: 8:00 - 17:00", "Sat - Sun: 10:00 - 17: 00", "Holidays - Closed"] },
+        { header: "Consultation Hour", items: ["Mon - wed : 8:00 - 18.00", "Thur - Fri: 8:00 - 17:00", "Sat - Sun: 10:00 - 17: 00", "Holidays - Closed"] },
         { header: "Contact", items: ["Address: 37a Oja Oshodi Akure, Ondo State, Nigeria", "+234 813 941 5247", "+2349077127012"] },
         // { header: "Products", items: ["Help centre", "FAQ", "Contact", "Press"] }
     ];

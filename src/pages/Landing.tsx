@@ -16,6 +16,7 @@ import { GrAssistListening } from "react-icons/gr";
 import MoreAboutUsOne from "@/assets/about-us-1.jpeg";
 import MoreAboutUsTwo from "@/assets/about-us-2.jpeg";
 import MoreAboutUsThree from "@/assets/about-us-3.jpeg";
+import MoreAboutUsFour from "@/assets/about-us-4.jpeg";
 
 const Landing = () => {
     return (
@@ -28,7 +29,7 @@ const Landing = () => {
                 <img src={AboutUs} alt="" />
 
                 <div className="px-5 lg:px-10 mb-10">
-                    <h3 className="border-b border-[#007bff] text-5xl mt-5 lg:w-1/2 pb-5">About Us</h3>
+                    <h3 className="border-b border-[#007bff] text-5xl mt-5 lg:w-1/2 pb-5 whitespace-nowrap">About Us</h3>
                     <p className="mt-10 text-justify">
                         Welcome to Crown hospital , where we are committed to delivering exceptional healthcare with a focus on compassion, innovation, and excellence. As a leading specialist hospital, we take pride in providing comprehensive medical services tailored to meet the unique needs of each patient.
                     </p>
@@ -69,8 +70,8 @@ const Landing = () => {
                 </div>
             </section>
 
-            <section className="mx-auto lg:px-48 lg:py-10 grid gap-10 lg:grid-cols-2 min-h-full px-5" id="why-us">
-                <img src={WhyusImage} className="rounded-full" />
+            <section className="mx-auto lg:px-32 lg:py-10 grid gap-10 lg:grid-cols-2 min-h-full px-5" id="why-us">
+                <img src={WhyusImage} className="rounded-full w-[500px] h-[500px] object-cover" />
 
                 <div className="flex flex-col items-center mt-20 text-center">
                     <h2 className="text-3xl font-bold">Why People Trust Us</h2>
@@ -118,17 +119,17 @@ const Landing = () => {
             </section>
 
             <section className="mx-auto mt-10">
-                <h2 className="text-center text-xl lg:text-3xl">More About Crown Hospital</h2>
+                <h2 className="text-center text-xl lg:text-3xl">Our Services</h2>
 
                 <div className="w-[90%] mx-auto">
                     <div className="grid gap-10 lg:grid-cols-2 mt-10">
                         <div>
                             <img src={MoreAboutUsOne} alt="" className="rounded-lg h-[300px] object-cover" />
-                            <h2 className="mt-3 text-[#1b3c74] text-xl lg:text-2xl">OUR EMERGENCY</h2>
+                            <h2 className="mt-3 text-[#1b3c74] text-xl lg:text-2xl"> EMERGENCY SERVICES</h2>
                             <p className="mt-4 text-justify text-base">As one of our mandates as a critical care center, we provide the highest level of trauma and emergency care in our fully equipped emergency room. Our team are trained and re trained on modern techniques in the management of medical, surgical and obstetric emergencies. Our model also ensures a seamless flow within the hospital for the acutely ill.</p>
                         </div>
                         <div>
-                            <img src={MoreAboutUsTwo} alt="" className="rounded-lg h-[300px] object-cover w-full" />
+                            <img src={MoreAboutUsFour} alt="" className="rounded-lg h-[300px] object-cover w-full" />
                             <h2 className="mt-3 text-[#1b3c74] text-xl lg:text-2xl">Critical Care Medicine/ICU</h2>
                             <p className="mt-4 text-justify text-base">As one of our mandates as a critical care center, we provide the highest level of trauma and emergency care in our fully equipped emergency room. Our team are trained and re trained on modern techniques in the management of medical, surgical and obstetric emergencies. Our model also ensures a seamless flow within the hospital for the acutely ill.</p>
                         </div>
