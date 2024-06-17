@@ -13,6 +13,10 @@ import { FaFileAlt } from "react-icons/fa";
 import { MdChildCare } from "react-icons/md";
 import { GrAssistListening } from "react-icons/gr";
 
+import MoreAboutUsOne from "@/assets/about-us-1.jpeg";
+import MoreAboutUsTwo from "@/assets/about-us-2.jpeg";
+import MoreAboutUsThree from "@/assets/about-us-3.jpeg";
+
 const Landing = () => {
     return (
         <main>
@@ -20,24 +24,13 @@ const Landing = () => {
 
             <Showcase />
 
-            {/* <section className="mx-auto lg:px-48 lg:py-10 grid lg:grid-cols-2" id="about">
-                <img src={AboutUs} alt="" />
-
-                <div className="px-10 mb-10">
-                    <h3 className="border-b border-[#007bff] text-5xl mt-5 lg:w-1/2 pb-5">About Us</h3>
-                    <p className="mt-10 text-justify">
-                      Welcome to Crown hospital , where we are committed to delivering exceptional healthcare with a focus on compassion, innovation, and excellence. As a leading specialist hospital, we take pride in providing comprehensive medical services tailored to meet the unique needs of each patient.
-                    </p>
-                </div>
-            </section> */}
-
             <section className="mx-auto lg:px-48 flex flex-col lg:flex-row items-center w-full justify-center py-5" id="about">
                 <img src={AboutUs} alt="" />
 
                 <div className="px-10 mb-10">
                     <h3 className="border-b border-[#007bff] text-5xl mt-5 lg:w-1/2 pb-5">About Us</h3>
                     <p className="mt-10 text-justify">
-                      Welcome to Crown hospital , where we are committed to delivering exceptional healthcare with a focus on compassion, innovation, and excellence. As a leading specialist hospital, we take pride in providing comprehensive medical services tailored to meet the unique needs of each patient.
+                        Welcome to Crown hospital , where we are committed to delivering exceptional healthcare with a focus on compassion, innovation, and excellence. As a leading specialist hospital, we take pride in providing comprehensive medical services tailored to meet the unique needs of each patient.
                     </p>
                 </div>
             </section>
@@ -119,6 +112,56 @@ const Landing = () => {
                         </div>
 
 
+                    </div>
+                </div>
+
+            </section>
+
+            <section className="mx-auto mt-10">
+                <h2 className="text-center text-xl lg:text-3xl">More About Crown Hospital</h2>
+
+                <div className="w-[90%] mx-auto">
+                    <div className="grid gap-10 lg:grid-cols-2 mt-10">
+                        <div>
+                            <img src={MoreAboutUsOne} alt="" className="rounded-lg h-[300px] object-cover" />
+                            <h2 className="mt-3 text-[#1b3c74] text-xl lg:text-2xl">OUR EMERGENCY</h2>
+                            <p className="mt-4 text-justify text-base">As one of our mandates as a critical care center, we provide the highest level of trauma and emergency care in our fully equipped emergency room. Our team are trained and re trained on modern techniques in the management of medical, surgical and obstetric emergencies. Our model also ensures a seamless flow within the hospital for the acutely ill.</p>
+                        </div>
+                        <div>
+                            <img src={MoreAboutUsTwo} alt="" className="rounded-lg h-[300px] object-cover w-full" />
+                            <h2 className="mt-3 text-[#1b3c74] text-xl lg:text-2xl">Critical Care Medicine/ICU</h2>
+                            <p className="mt-4 text-justify text-base">As one of our mandates as a critical care center, we provide the highest level of trauma and emergency care in our fully equipped emergency room. Our team are trained and re trained on modern techniques in the management of medical, surgical and obstetric emergencies. Our model also ensures a seamless flow within the hospital for the acutely ill.</p>
+                        </div>
+                        <div>
+                            <img src={MoreAboutUsThree} alt="" className="rounded-lg h-[300px] object-cover w-full" />
+                            <h2 className="mt-3 text-[#1b3c74] text-xl lg:text-2xl">Medical community outreach</h2>
+                            <p className="mt-4 text-justify text-base">
+                                At crown hospital , we have two fully equipped theatres and trained theatre practitioners, technicians, nurses, surgeons and anaesthetists who ensure that cases are done safely and efficiently. We are fully aware that “safe surgery saves lives”
+
+                                Our in-house urologist provides treatment for a variety of concerns including, but not limited to, Prostate Cancer, bladder cancer, renal cancer, impotence, kidney stone and infertility. We also carry out Procedures such as vasectomy and laparoscopic surgeries.
+
+                                From upper gastrointestinal to lower gastrointestinal surgery to breast surgery and thyroid surgeries our team of trained surgeons provide the skills and technique necessary for each case for each patient.
+
+                                Children are not little adults, they require a lot more care and precision, that’s why we ensure that paediatric cases are done by a paediatric surgeon.
+
+                                Our neurosurgeon offers the best modern techniques available in treatment of brain and spine disorders. Expert review is available from the p
+                            </p>
+                        </div>
+                        <div>
+                            <img src={MoreAboutUsTwo} alt="" className="rounded-lg h-[300px] object-cover w-full" />
+                            <h2 className="mt-3 text-[#1b3c74] text-xl lg:text-2xl">SURGERY</h2>
+                            <p className="mt-4 text-justify text-base">
+                                Medical outreach team, Crown hospital , on Thursday, 4th of February, 2021 delivered quality health care services to the residents of Temidire-Ekiti in Ijero Local Government Area of Ekiti State.
+
+                                Mrs. Adeniyi, a Public Health Matron from the Department of Community Medicine led the publicity crew to publicised the arrival of Fethi medical team to the community.
+
+                                9 patients were in attendance and Random Blood Sugar (RBC) test was carried out for 2 patients based on the doctor’s recommendation.
+
+                                Activities carried out during the outreach programme were; Publicity, vital signs check, RBC check, consultation and dispensation of drugs. Covid-19 protocols were duly observed during the program.
+
+                                A Community Health physician, Dr. Alao and other medical team were on ground for the outreach exercise.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
