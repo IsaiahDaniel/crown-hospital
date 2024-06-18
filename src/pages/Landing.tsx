@@ -38,13 +38,13 @@ const Landing = () => {
                 </div>
             </section>
 
-            <section className="grid lg:grid-cols-2">
+            {/* <section className="grid lg:grid-cols-2">
 
-                <div>
+                <div className="h-full">
                     <img src={SmilingDoctor} />
                 </div>
 
-                <div className="bg-red-8000 h-full">
+                <div className="h-full">
                     <div className="flex flex-col lg:flex-row">
                         <div className="flex-1 bg-white p-4 py-10 lg:py-28">
                             <h2 className="text-2xl mb-10">Our Mission</h2>
@@ -52,11 +52,11 @@ const Landing = () => {
                         </div>
                         <div className="flex-1 bg-[#F27F09] p-4 text-white py-10 lg:py-28">
                             <h2 className="text-2xl mb-10 ">Our Vison</h2>
-                            <p>Our mission is to serve the health care needs of our community by providing comprehensive care to prevent illness, relieve suffering, restore health and promote well being during each life stage. We will provide advanced procedures and modern technology, within our available resources, with a focus on caring, compassion and patient safety</p>
+                            <p>Crown Hospital strives to be a leading healthcare institution recognized for providing exceptional patient care, innovative medical research, and outstanding educational opportunities. We envision a future where every patient receives personalized, compassionate, and cutting-edge treatment, promoting health and well-being within our community and beyond. Our commitment to excellence, integrity, and continuous improvement drives us to set new standards in healthcare, ensuring that every individual who walks through our doors receives the highest quality of care and support.</p>
                         </div>
                     </div>
 
-                    <div className="bg-[#30C1FF] h-[85vh] py-10 lg:py-16 mb-24">
+                    <div className="bg-[#30C1FF] py-10 lg:py-16 mb-24">
                         <div className="mx-auto flex flex-col items-center justify-center">
                             <img src={UkFlag} alt="" className="w-[100px] mb-12" />
 
@@ -70,7 +70,40 @@ const Landing = () => {
                         </div>
                     </div>
                 </div>
+            </section> */}
+
+            <section className="grid lg:grid-cols-2">
+                <div className="h-full">
+                    <img src={SmilingDoctor} className="h-full w-full object-cover" alt="Smiling Doctor" />
+                </div>
+
+                <div className="bg-red-8000 h-full flex flex-col">
+                    <div className="flex flex-col lg:flex-row flex-grow">
+                        <div className="flex-1 bg-white p-4 py-10 lg:py-28">
+                            <h2 className="text-2xl mb-10">Our Mission</h2>
+                            <p>Our mission is to serve the health care needs of our community by providing comprehensive care to prevent illness, relieve suffering, restore health and promote well being during each life stage. We will provide advanced procedures and modern technology, within our available resources, with a focus on caring, compassion and patient safety</p>
+                        </div>
+                        <div className="flex-1 bg-[#F27F09] p-4 text-white py-10 lg:py-28">
+                            <h2 className="text-2xl mb-10">Our Vision</h2>
+                            <p>Crown Hospital strives to be a leading healthcare institution recognized for providing exceptional patient care, innovative medical research, and outstanding educational opportunities. We envision a future where every patient receives personalized, compassionate, and cutting-edge treatment, promoting health and well-being within our community and beyond. Our commitment to excellence, integrity, and continuous improvement drives us to set new standards in healthcare, ensuring that every individual who walks through our doors receives the highest quality of care and support.</p>
+                        </div>
+                    </div>
+
+                    <div className="bg-[#30C1FF] py-10 lg:py-24 mb-24">
+                        <div className="mx-auto flex flex-col items-center justify-center">
+                            <img src={UkFlag} alt="" className="w-[100px] mb-12" />
+                            <h2 className="text-2xl">UK TB Appointment</h2>
+                            <div className="px-10 mt-5 text-center">
+                                <p>According to the UK government, you must be tested for tuberculosis (TB) if you are coming to the UK for more than 6 months and are a resident of Nigeria or the Republic of Bénin.</p>
+                                <p className="mt-5">
+                                    There are no approved clinics in the Republic of Bénin, so if you’re from there, you’ll need to travel to Nigeria to be tested. St. NicholasHospital, IOM Centre and Q-Life Family Clinic are some  of the approved screening centers in Lagos, Nigeria.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
+
 
             <section className="mx-auto lg:px-32 lg:py-10 grid gap-10 lg:grid-cols-2 min-h-full px-5" id="why-us">
                 <img src={WhyusImage} className="rounded-full w-[500px] h-[500px] object-cover" />
